@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy: virtual tutor</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="style/chatStyle.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; font-src 'self' data: http://localhost:3000; style-src 'self' 'unsafe-inline' http://localhost:3000; script-src 'self' http://localhost:3000; img-src 'self' http://localhost:3000; connect-src 'self' http://localhost:3000;">
+</head>
+<body>
+    <!-- Top section -->
+    <div id="topContainer">
+        <img id="appIcon" src="images/ico.png" alt="App Icon" width="32" height="32">
+        <h5 id="appTitle">&nbsp; &nbsp; &nbsp; &nbsp; Of Mice and Men by John Steinbeck</h5>
+    </div>
+
+    <!-- Middle section for slide controls -->
+    <div id="middleContainer">
+        <hr>
+        <button id="nextSlideButton" class="button">Next Slide</button>
+        <label for="goToSlideInput">     Go to slide number (press enter)  </label>
+        <input type="number" id="goToSlideInput" min="0" max="12" maxlength="2">
+    </div>
+
+    <!-- Bottom section for slide display -->
+    <div id="bottomContainer">
+        <img id="slideImage" src="images/img0.png" alt="Slide">
+        <div id="slideTitle"></div>
+    </div>
+
+    <!-- Container for Chat, Input, and Buttons -->
+    <!-- This is the container that should expand vertically -->
+    <div id="chatResponseContainer">
+        <!-- Box where messages appear -->
+        <div id="chatBox">
+            <!-- Chat messages will be added here by JavaScript -->
+        </div>
+        <!-- Text input area -->
+        <textarea id="chatInput" placeholder="Talk to your virtual tutor - enter text"></textarea>
+        <!-- Container for action buttons -->
+        <div class="button-container">
+            <button id="sendButton">Send</button>
+            <button id="saveButton">Save Text</button>
+            <button id="clearButton">Clear Text</button>
+            <button id="goToQuizButton" onclick="window.open('https://www.youtube.com/watch?v=2GJIDR9J5eg', '_blank');">10 minute Youtube</button>           
+            <button id="goToQuizButton" onclick="window.open('quiz.html', '_blank');">Quiz me!</button>
+        </div>
+    </div>
+    <!-- Your JavaScript file -->
+    <script src="script/chatScript.js">defer</script>
+</body>
+</html>

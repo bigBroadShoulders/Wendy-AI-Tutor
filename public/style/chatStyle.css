@@ -1,0 +1,273 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Top header styling */
+#topContainer {
+    background-color: #3997bc;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+#appIcon {
+    margin-right: 10px;
+}
+
+#appTitle {
+    margin: 0;
+    font-size: 1.0em;
+}
+
+/* Middle controls container styling */
+#middleContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+#nextSlideButton {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+#nextSlideButton:hover {
+    background-color: #45a049;
+}
+
+#goToSlideInput {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60px;
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Container label styling */
+#middleContainer label {
+    margin: 5px;
+}
+
+/* Bottom slide display container styling */
+#bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#slideImage {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#slideTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Chat container - allows vertical expansion */
+#chatResponseContainer {
+    min-width: 300px;
+    max-width: 750px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    flex-grow: 1; /* Add this to allow vertical expansion */
+}
+
+/* The box holding the actual chat messages */
+#chatBox {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 1em;
+    line-height: 1.5;
+    min-height: 60px;
+}
+
+/* Styling for individual messages within chatBox */
+#chatResponseContainer .message {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 85%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.4;
+}
+
+#chatResponseContainer .user-message {
+    background-color: #d1eaff;
+    align-self: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+#chatResponseContainer .bot-message {
+    background-color: #f1f1f1;
+    align-self: flex-start;
+    border-bottom-left-radius: 5px;
+}
+
+/* Ensure bold/list styling works within messages */
+#chatBox strong {
+    font-weight: bold;
+}
+
+#chatBox ul,
+#chatBox ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+#chatBox li {
+    margin-bottom: 3px;
+}
+
+/* Text input area styling */
+#chatInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    resize: vertical;
+    min-height: 40px;
+    line-height: 1.4;
+}
+
+/* Container for the buttons below input */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* General button styling within button-container */
+.button-container button {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+.button-container button:hover {
+    opacity: 0.85;
+}
+
+#sendButton {
+    background-color: #0f437b;
+    margin-right: auto;
+}
+
+#clearButton,
+#saveButton,
+#goToQuizButton {
+    background-color: #1a5594;
+    margin-left: 15px;
+}
+
+#goToQuizButton {
+    background-color: #4CAF50;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    #topContainer,
+    #middleContainer,
+    #bottomContainer,
+    #chatResponseContainer {
+        max-width: 95%;
+        min-width: 95%;
+    }
+
+    #appTitle {
+        font-size: 0.8em;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .button-container button {
+        width: 100%;
+    }
+
+    #middleContainer {
+        flex-direction: column;
+    }
+
+    #goToSlideInput {
+        width: 80%;
+    }
+}
+/* End of CSS */O

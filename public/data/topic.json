@@ -1,0 +1,119 @@
+{
+    "topic": {
+      "title": "Of Mice and Men",
+      "author": "John Steinbeck",
+      "key_themes": [
+        "The American Dream",
+        "Loneliness and Isolation",
+        "Friendship and Loyalty",
+        "Dreams and Aspirations",
+        "Prejudice and Discrimination",
+        "Power and Vulnerability"
+      ],
+      "sections": [
+        {
+          "id": "1",
+          "text": "Lennie dabbled his big paw in the water. 'I ain't gonna do no bad things like I did in Auburn.'",
+          "meaning": "Introduces Lennie's childlike innocence and foreshadows his capacity for unintended violence.",
+          "critical_points": [
+            {
+              "theme": "vulnerability",
+              "point": "Highlights Lennie's lack of control and understanding."
+            },
+            {
+              "theme": "foreshadowing",
+              "point": "Hints at future tragic events."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "text": "‘Guys like us, that work on ranches, are the loneliest guys in the world. They got no family. They don’t belong no place…With us it ain’t like that. We got a future. We got somebody to talk to that gives a damn about us.’",
+          "meaning": "Emphasizes the theme of loneliness among migrant workers and the importance of George and Lennie's bond.",
+          "critical_points": [
+            {
+              "theme": "loneliness",
+              "point": "Explores the isolation of itinerant workers during the Depression."
+            },
+            {
+              "theme": "friendship",
+              "point": "Contrasts George and Lennie's companionship with the isolation of others."
+            },
+             {
+              "theme": "american dream",
+              "point": "George and Lennie's dream of owning a farm."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "text": "Curley’s wife lay with a half-covering of yellow hay. And the meanness and the planning and the discontent and the ache for attention were all gone from her face.",
+          "meaning": "Depicts the tragic death of Curley's wife, highlighting her isolation and unfulfilled dreams.",
+          "critical_points": [
+            {
+              "theme": "isolation",
+              "point": "Shows the consequences of loneliness and lack of connection."
+            },
+            {
+              "theme": "dreams",
+              "point": "Reflects on the loss of personal aspirations."
+            },
+            {
+              "theme": "vulnerability",
+              "point": "Emphasizes the vulnerability of women in this harsh environment."
+            }
+          ]
+        },
+         {
+          "id": "4",
+          "text": "‘I can still tend the rabbits, George? That’s all I want,’ Lennie pleaded.",
+          "meaning": "Lennie's simple dream of tending rabbits represents a longing for peace, security, and a sense of belonging.",
+          "critical_points": [
+            {
+              "theme": "dreams",
+              "point": "Lennie's dream is a driving force, symbolizing hope and a better future."
+            },
+            {
+               "theme": "friendship",
+               "point": "George's compassion in allowing Lennie to focus on his dream in his final moments."
+            }
+           ]
+         },
+          {
+          "id": "5",
+          "text": "George raised the gun, and his hand shook, but he looked away from Lennie’s eyes. He pulled the trigger. The crash of the shot rolled up the hills and settled to silence. George stood up again, and he was quiet and he was empty.",
+          "meaning": "The killing of Lennie by George is the climax of the novel.  It represents the destruction of the dream and the burden of responsibility.",
+          "critical_points": [
+            {
+              "theme": "friendship",
+              "point": "The ultimate act of love and mercy, ending Lennie's suffering."
+            },
+            {
+              "theme": "loneliness",
+              "point": "George is now completely alone, his dream dead."
+            },
+            {
+              "theme": "american dream",
+              "point": "The impossibility of achieving the dream."
+            }
+          ]
+        }
+      ],
+      "guidance": {
+        "key_prompts": [
+          "How does Steinbeck portray the theme of loneliness in the lives of the ranch workers?",
+          "Discuss the significance of the dream of owning a farm.",
+          "Analyze the different forms of power and vulnerability present in the novel.",
+          "How does the author use language and imagery to explore the themes?",
+          "What is the role of Curley's wife in the novel, and what does she represent?"
+        ],
+        "teaching_focus": [
+          "Encouraging students to analyze the text's social and historical context.",
+          "Developing critical thinking skills through close reading and interpretation.",
+          "Fostering an understanding of literary devices and their effects.",
+          "Promoting discussions about the novel's enduring relevance."
+        ]
+      }
+    }
+  }
+  
